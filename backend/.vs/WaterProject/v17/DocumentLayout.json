@@ -1,0 +1,145 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|c:\\users\\daynes13\\onedrive - brigham young university\\desktop\\booklistproject\\backend\\waterproject.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|solutionrelative:waterproject.api\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|c:\\users\\daynes13\\onedrive - brigham young university\\desktop\\booklistproject\\backend\\waterproject.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|solutionrelative:waterproject.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|c:\\users\\daynes13\\onedrive - brigham young university\\desktop\\booklistproject\\backend\\waterproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|solutionrelative:waterproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|c:\\users\\daynes13\\onedrive - brigham young university\\desktop\\booklistproject\\backend\\waterproject.api\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|solutionrelative:waterproject.api\\data\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|c:\\users\\daynes13\\onedrive - brigham young university\\desktop\\booklistproject\\backend\\waterproject.api\\data\\bookstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|solutionrelative:waterproject.api\\data\\bookstorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|c:\\users\\daynes13\\onedrive - brigham young university\\desktop\\booklistproject\\backend\\waterproject.api\\bookstore.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|solutionrelative:waterproject.api\\bookstore.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|c:\\users\\daynes13\\onedrive - brigham young university\\desktop\\booklistproject\\backend\\waterproject.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|solutionrelative:waterproject.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WaterProject.API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WaterProject.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-17T20:26:20.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "WaterProject.API\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\Controllers\\BookController.cs",
+              "RelativeToolTip": "WaterProject.API\\Controllers\\BookController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T19:39:28.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\Program.cs",
+              "RelativeDocumentMoniker": "WaterProject.API\\Program.cs",
+              "ToolTip": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\Program.cs",
+              "RelativeToolTip": "WaterProject.API\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T15:18:54.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookstoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\Data\\BookstoreContext.cs",
+              "RelativeDocumentMoniker": "WaterProject.API\\Data\\BookstoreContext.cs",
+              "ToolTip": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\Data\\BookstoreContext.cs",
+              "RelativeToolTip": "WaterProject.API\\Data\\BookstoreContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T15:12:39.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\Data\\Book.cs",
+              "RelativeDocumentMoniker": "WaterProject.API\\Data\\Book.cs",
+              "ToolTip": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\Data\\Book.cs",
+              "RelativeToolTip": "WaterProject.API\\Data\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T15:08:22.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bookstore.API.csproj",
+              "DocumentMoniker": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\Bookstore.API.csproj",
+              "RelativeDocumentMoniker": "WaterProject.API\\Bookstore.API.csproj",
+              "ToolTip": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\Bookstore.API.csproj",
+              "RelativeToolTip": "WaterProject.API\\Bookstore.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-17T15:08:05.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\appsettings.json",
+              "RelativeDocumentMoniker": "WaterProject.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\appsettings.json",
+              "RelativeToolTip": "WaterProject.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-17T14:59:07.071Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
