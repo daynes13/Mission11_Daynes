@@ -15,11 +15,23 @@ namespace Bookstore.API.Controllers
             _bookContext = temp;
         }
 
-        public IEnumerable<Book> Get()
+        [HttpGet]
+        public IActionResult Get(int pageSize = 5, int pageNum = 1)
         {
-            var results = _bookContext.Books.ToList();
+            var results = _bookContext.Books
+                .Skip((pageNum-1) * pageSize)
+                .Take(pageSize)
+                .ToList();
 
-            return results;
+            var totalNumBooks = _bookContext.Books.Count();
+
+            var someObject = new
+            {
+                Books = results,
+                TotalNumBooks = totalNumBooks
+            };
+
+            return Ok(someObject);
         }
     }
 }
