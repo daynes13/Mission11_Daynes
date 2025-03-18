@@ -1,7 +1,7 @@
 ﻿using Bookstore.API.Data;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System.Security.Cryptography.X509Certificates;
+using System.Linq;
 
 namespace Bookstore.API.Controllers
 {
@@ -16,22 +16,30 @@ namespace Bookstore.API.Controllers
         }
 
         [HttpGet]
-        public IActionResult Get(int pageSize = 5, int pageNum = 1)
+        public IActionResult Get(int pageSize = 5, int pageNum = 1, bool sortByTitle = false)
         {
-            var results = _bookContext.Books
-                .Skip((pageNum-1) * pageSize)
+            var query = _bookContext.Books.AsQueryable();
+
+            // Apply sorting if requested
+            if (sortByTitle)
+            {
+                query = query.OrderBy(b => b.Title);
+            }
+
+            var totalNumBooks = query.Count();
+
+            var results = query
+                .Skip((pageNum - 1) * pageSize)
                 .Take(pageSize)
                 .ToList();
 
-            var totalNumBooks = _bookContext.Books.Count();
-
-            var someObject = new
+            var response = new
             {
                 Books = results,
                 TotalNumBooks = totalNumBooks
             };
 
-            return Ok(someObject);
+            return Ok(response);
         }
     }
 }
