@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Bookstore.API/Bookstore.3qrq1mhvpm.sqlite">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Bookstore.sqlite'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3qrq1mhvpm"},{"Name":"integrity","Value":"sha256-25dx1rPOi8Q7hmrOr4r/NUE4BNxNQd0t2Kn8sTcvYVs="},{"Name":"label","Value":"_content/Bookstore.API/Bookstore.sqlite"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24576"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u002225dx1rPOi8Q7hmrOr4r/NUE4BNxNQd0t2Kn8sTcvYVs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 14:56:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Bookstore.API/Bookstore.sqlite">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Bookstore.sqlite'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-25dx1rPOi8Q7hmrOr4r/NUE4BNxNQd0t2Kn8sTcvYVs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"24576"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u002225dx1rPOi8Q7hmrOr4r/NUE4BNxNQd0t2Kn8sTcvYVs=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 14:56:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

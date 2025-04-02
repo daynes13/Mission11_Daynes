@@ -15,6 +15,13 @@ namespace Bookstore.API.Controllers
             _bookContext = temp;
         }
 
+        // [HttpGet("AllBooks")]
+        // public IActionResult Get()
+        // {
+        //     Console.WriteLine("✅ Dummy AllBooks route hit");
+        //     return Ok(new { message = "AllBooks is alive — DB call disabled." });
+        // }
+
         [HttpGet("AllBooks")]
         public IActionResult Get(int pageSize = 5, int pageNum = 1, bool sortByTitle = false, [FromQuery] List<string>? bookTypes = null)
         {
@@ -27,13 +34,13 @@ namespace Bookstore.API.Controllers
 
             HttpContext.Response.Cookies.Append("FavoriteBook", "Les Miserables", new CookieOptions
             {
-                HttpOnly=true,
+                HttpOnly = true,
                 Secure = true,
                 SameSite = SameSiteMode.Strict,
                 Expires = DateTime.Now.AddMinutes(1),
             });
 
-            
+
 
             // Apply sorting if requested
             if (sortByTitle)
@@ -66,6 +73,50 @@ namespace Bookstore.API.Controllers
                 .ToList();
 
             return Ok(bookTypes);
+        }
+
+        [HttpPost("AddBook")]
+        public IActionResult AddBook([FromBody] Book newBook)
+        {
+            _bookContext.Books.Add(newBook);
+            _bookContext.SaveChanges();
+            return Ok(newBook);
+        }
+
+        [HttpPut("UpdateBook/{bookID}")]
+        public IActionResult UpdateBook(int bookID, [FromBody] Book updatedBook)
+        {
+            var existingBook = _bookContext.Books.Find(bookID);
+
+            existingBook.Title = updatedBook.Title;
+            existingBook.Author = updatedBook.Author;
+            existingBook.Publisher = updatedBook.Publisher;
+            existingBook.ISBN = updatedBook.ISBN;
+            existingBook.Classification = updatedBook.Classification;
+            existingBook.Category = updatedBook.Category;
+            existingBook.PageCount = updatedBook.PageCount;
+            existingBook.Price = updatedBook.Price;
+
+            _bookContext.Books.Update(existingBook);
+            _bookContext.SaveChanges();
+
+            return Ok(existingBook);
+        }
+
+        [HttpDelete("DeleteBook/{bookID}")]
+        public IActionResult DeleteBook(int bookID)
+        {
+            var book = _bookContext.Books.Find(bookID);
+
+            if (book == null)
+            {
+                return NotFound(new { message = "Book not found" });
+            }
+
+            _bookContext.Books.Remove(book);
+            _bookContext.SaveChanges();
+
+            return NoContent();
         }
     }
 }

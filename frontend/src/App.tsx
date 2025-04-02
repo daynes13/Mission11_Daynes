@@ -5,6 +5,7 @@ import CartPage from './pages/CartPage';
 import { CartProvider } from './context/CartContext';
 import BuyPage from './pages/BuyPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AdminBooksPage from './pages/AdminBooksPage';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           <Route path='books' element={<BooksPage/>} />
           <Route path='/buy/:title/:bookID/:price' element={<BuyPage />} />
           <Route path='/cart' element={<CartPage />} />
+          <Route path='/adminbooks' element={<AdminBooksPage/>} />
         </Routes>
       </Router>
     </CartProvider>

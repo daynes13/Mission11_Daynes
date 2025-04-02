@@ -1,5 +1,88 @@
 {
   "Version": 1,
   "ManifestType": "Build",
-  "Endpoints": []
+  "Endpoints": [
+    {
+      "Route": "Bookstore.3qrq1mhvpm.sqlite",
+      "AssetFile": "Bookstore.sqlite",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"25dx1rPOi8Q7hmrOr4r/NUE4BNxNQd0t2Kn8sTcvYVs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 14:56:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3qrq1mhvpm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-25dx1rPOi8Q7hmrOr4r/NUE4BNxNQd0t2Kn8sTcvYVs="
+        },
+        {
+          "Name": "label",
+          "Value": "Bookstore.sqlite"
+        }
+      ]
+    },
+    {
+      "Route": "Bookstore.sqlite",
+      "AssetFile": "Bookstore.sqlite",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24576"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"25dx1rPOi8Q7hmrOr4r/NUE4BNxNQd0t2Kn8sTcvYVs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 14:56:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-25dx1rPOi8Q7hmrOr4r/NUE4BNxNQd0t2Kn8sTcvYVs="
+        }
+      ]
+    }
+  ]
 }

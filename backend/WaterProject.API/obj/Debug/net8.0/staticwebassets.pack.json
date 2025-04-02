@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\wwwroot\\Bookstore.sqlite",
+      "PackagePath": "staticwebassets\\Bookstore.sqlite"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Bookstore.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Bookstore.API.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Bookstore.API.props",
+      "PackagePath": "build\\Bookstore.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Bookstore.API.props",
+      "PackagePath": "buildMultiTargeting\\Bookstore.API.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Bookstore.API.props",
+      "PackagePath": "buildTransitive\\Bookstore.API.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

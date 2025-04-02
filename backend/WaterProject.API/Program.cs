@@ -10,15 +10,22 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+var env = builder.Environment;
+var dbPath = Path.Combine(env.WebRootPath, "Bookstore.sqlite");
+
 builder.Services.AddDbContext<BookstoreContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("BookstoreConnection")));
+    options.UseSqlite($"Data Source={dbPath}")
+);
+
+// builder.Services.AddDbContext<BookstoreContext>(options =>
+//     options.UseSqlite(builder.Configuration.GetConnectionString("BookstoreConnection")));
 
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name:"AllowFrontend",
         configurePolicy: policy =>
         {
-            policy.WithOrigins("http://localhost:3000").AllowCredentials().AllowAnyHeader().AllowAnyMethod();
+            policy.WithOrigins("http://localhost:3000").AllowAnyHeader().AllowAnyMethod();
         });
 });
 
@@ -31,9 +38,11 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+app.UseHttpsRedirection();
+
 app.UseCors("AllowFrontend");
 
-app.UseHttpsRedirection();
+
 
 app.UseAuthorization();
 
