@@ -79,3 +79,5 @@ C:\Users\daynes13\OneDrive - Brigham Young University\Desktop\BooklistProject\ba
 C:\Users\daynes13\OneDrive - Brigham Young University\Desktop\BooklistProject\backend\WaterProject.API\obj\Release\net8.0\Bookstore.API.genruntimeconfig.cache
 C:\Users\daynes13\OneDrive - Brigham Young University\Desktop\BooklistProject\backend\WaterProject.API\obj\Release\net8.0\ref\Bookstore.API.dll
 C:\Users\daynes13\OneDrive - Brigham Young University\Desktop\BooklistProject\backend\WaterProject.API\bin\Release\net8.0\Bookstore.API.staticwebassets.runtime.json
+C:\Users\daynes13\OneDrive - Brigham Young University\Desktop\BooklistProject\backend\WaterProject.API\bin\Release\net8.0\Bookstore.API.http
+C:\Users\daynes13\OneDrive - Brigham Young University\Desktop\BooklistProject\backend\WaterProject.API\bin\Release\net8.0\Bookstore.sqlite

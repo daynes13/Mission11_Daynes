@@ -1,6 +1,8 @@
 C:\Users\daynes13\OneDrive - Brigham Young University\Desktop\BooklistProject\backend\WaterProject.API\publish\Bookstore.API.exe
 C:\Users\daynes13\OneDrive - Brigham Young University\Desktop\BooklistProject\backend\WaterProject.API\publish\appsettings.Development.json
 C:\Users\daynes13\OneDrive - Brigham Young University\Desktop\BooklistProject\backend\WaterProject.API\publish\appsettings.json
+C:\Users\daynes13\OneDrive - Brigham Young University\Desktop\BooklistProject\backend\WaterProject.API\publish\Bookstore.API.http
+C:\Users\daynes13\OneDrive - Brigham Young University\Desktop\BooklistProject\backend\WaterProject.API\publish\Bookstore.sqlite
 C:\Users\daynes13\OneDrive - Brigham Young University\Desktop\BooklistProject\backend\WaterProject.API\publish\Bookstore.API.dll
 C:\Users\daynes13\OneDrive - Brigham Young University\Desktop\BooklistProject\backend\WaterProject.API\publish\Bookstore.API.deps.json
 C:\Users\daynes13\OneDrive - Brigham Young University\Desktop\BooklistProject\backend\WaterProject.API\publish\Bookstore.API.runtimeconfig.json

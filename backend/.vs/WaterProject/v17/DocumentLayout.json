@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|c:\\users\\daynes13\\onedrive - brigham young university\\desktop\\booklistproject\\backend\\waterproject.api\\bookstore.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|solutionrelative:waterproject.api\\bookstore.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|c:\\users\\daynes13\\onedrive - brigham young university\\desktop\\booklistproject\\backend\\waterproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|solutionrelative:waterproject.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|c:\\users\\daynes13\\onedrive - brigham young university\\desktop\\booklistproject\\backend\\waterproject.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{78650EF8-940F-464F-B23F-24FD04A89775}|WaterProject.API\\Bookstore.API.csproj|solutionrelative:waterproject.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,16 +38,40 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\appsettings.json",
+              "RelativeDocumentMoniker": "WaterProject.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\appsettings.json",
+              "RelativeToolTip": "WaterProject.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-03T21:53:16.08Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Bookstore.API.csproj",
+              "DocumentMoniker": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\Bookstore.API.csproj",
+              "RelativeDocumentMoniker": "WaterProject.API\\Bookstore.API.csproj",
+              "ToolTip": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\Bookstore.API.csproj",
+              "RelativeToolTip": "WaterProject.API\\Bookstore.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-03T21:51:02.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\Program.cs",
               "RelativeDocumentMoniker": "WaterProject.API\\Program.cs",
               "ToolTip": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\Program.cs",
               "RelativeToolTip": "WaterProject.API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T21:13:02.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T21:13:02.643Z"
             }
           ]
         }

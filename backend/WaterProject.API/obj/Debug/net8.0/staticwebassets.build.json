@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HVKuU+cltQ2ndfXaLVPOwN/b4+exESEJNQnBfUjlE7A=",
+  "Hash": "RrxhqAtrbYuD+9oZSbUlFn3CQbT5bGs5TLpBwJ2R398=",
   "Source": "Bookstore.API",
   "BasePath": "_content/Bookstore.API",
   "Mode": "Default",
@@ -15,111 +15,6 @@
       "Pattern": "**"
     }
   ],
-  "Assets": [
-    {
-      "Identity": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\wwwroot\\Bookstore.sqlite",
-      "SourceId": "Bookstore.API",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\wwwroot\\",
-      "BasePath": "_content/Bookstore.API",
-      "RelativePath": "Bookstore#[.{fingerprint}]?.sqlite",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "3qrq1mhvpm",
-      "Integrity": "25dx1rPOi8Q7hmrOr4r/NUE4BNxNQd0t2Kn8sTcvYVs=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Bookstore.sqlite"
-    }
-  ],
-  "Endpoints": [
-    {
-      "Route": "Bookstore.3qrq1mhvpm.sqlite",
-      "AssetFile": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\wwwroot\\Bookstore.sqlite",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24576"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"25dx1rPOi8Q7hmrOr4r/NUE4BNxNQd0t2Kn8sTcvYVs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 14:56:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "3qrq1mhvpm"
-        },
-        {
-          "Name": "label",
-          "Value": "Bookstore.sqlite"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-25dx1rPOi8Q7hmrOr4r/NUE4BNxNQd0t2Kn8sTcvYVs="
-        }
-      ]
-    },
-    {
-      "Route": "Bookstore.sqlite",
-      "AssetFile": "C:\\Users\\daynes13\\OneDrive - Brigham Young University\\Desktop\\BooklistProject\\backend\\WaterProject.API\\wwwroot\\Bookstore.sqlite",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "24576"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"25dx1rPOi8Q7hmrOr4r/NUE4BNxNQd0t2Kn8sTcvYVs=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 14:56:05 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-25dx1rPOi8Q7hmrOr4r/NUE4BNxNQd0t2Kn8sTcvYVs="
-        }
-      ]
-    }
-  ]
+  "Assets": [],
+  "Endpoints": []
 }
